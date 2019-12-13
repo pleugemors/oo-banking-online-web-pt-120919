@@ -9,7 +9,7 @@ class Transfer
   
   attr_reader :sender, :receiver, :status, :amount 
   
-  def valid(act1, act2)
+  def valid?(act1, act2)
     
   end
   
