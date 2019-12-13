@@ -30,6 +30,7 @@ class Transfer
     if @@last_transer.status == "complete"
       sender.depoit(amount)
       receiver.deposit(-amount)
+    end
   end
   
 end
