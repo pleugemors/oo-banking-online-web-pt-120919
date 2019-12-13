@@ -10,6 +10,7 @@ class Transfer
   attr_reader :sender, :receiver, :status, :amount 
   
   def valid?
+    sender.
     
   end
   
