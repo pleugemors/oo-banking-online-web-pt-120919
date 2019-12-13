@@ -6,6 +6,6 @@ class Transfer
     @status = "pending"
   end 
   
-  attr_reader :sender, :receiver
+  attr_reader :sender, :receiver, :status
   
 end
