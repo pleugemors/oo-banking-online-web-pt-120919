@@ -4,8 +4,9 @@ class Transfer
     @sender = tranferer
     @receiver = receiver
     @status = "pending"
+    @amount = amount 
   end 
   
-  attr_reader :sender, :receiver, :status
+  attr_reader :sender, :receiver, :status, :amount 
   
 end
