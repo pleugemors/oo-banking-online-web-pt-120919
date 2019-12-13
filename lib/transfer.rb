@@ -28,10 +28,10 @@ class Transfer
   end
   
   def reverse_transfer
-    if @last_transer.status == "complete"
+    #if @last_transer.status == "complete"
       sender.depoit(amount)
       receiver.deposit(-amount)
-    end
+    #end
   end
   
 end
