@@ -5,6 +5,7 @@ class Transfer
     @receiver = receiver
     @status = "pending"
     @amount = amount 
+    @@last_transer = nil 
   end 
   @@last_transer
   attr_reader :sender, :receiver, :status, :amount 
